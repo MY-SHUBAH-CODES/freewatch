@@ -1,0 +1,15 @@
+.wrapper{
+  height: 500px;
+  
+  position:relative;
+  overflow:hidden;
+}
+iframe{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:0;
+  pointer-events:none;
+  width:100%;
+  height:56.25vw;
+}

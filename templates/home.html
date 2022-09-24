@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% load embed_video_tags %}
+
+
+
+
+{% block content %}
+
+<h1> this is home page</h1>
+  {%for i in obj%}
+      {% video i.video 'small'%}
+
+
+      {%endfor %}
+
+
+ {%endblock%}
+
+  
