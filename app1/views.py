@@ -8,7 +8,7 @@ from django.shortcuts import render
 from ast import Return
 from contextlib import redirect_stderr
 from django.http import HttpResponse
-from turtle import title
+# from turtle import title
 from urllib import response
 from django.http import JsonResponse
 from django.shortcuts import redirect, render
